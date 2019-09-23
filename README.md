@@ -1,4 +1,4 @@
-# It's en experiment that shows reads JSON fields from MariaDB via Sequelize
+# It's en experiment that reads JSON fields from MariaDB via Sequelize
 
 ## Init
 

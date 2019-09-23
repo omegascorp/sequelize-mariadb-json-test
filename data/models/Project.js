@@ -5,16 +5,12 @@ module.exports = dbService.define(
   'Project',
   {
     id: {
-      type: sequelize.UUID,
-      defaultValue: sequelize.UUIDV1,
+      type: sequelize.INTEGER,
       primaryKey: true,
     },
     data: {
       type: sequelize.JSON,
       defaultValue: '',
     },
-  },
-  {
-    indexes: [],
   },
 );

@@ -1,7 +1,7 @@
 const sequelize = require('sequelize');
 const dbService = require('../../services/dbService');
 
-const User = dbService.define(
+module.exports = dbService.define(
   'User',
   {
     id: {
@@ -13,9 +13,4 @@ const User = dbService.define(
       defaultValue: '',
     },
   },
-  {
-    indexes: [],
-  },
 );
-
-module.exports = User;
