@@ -1,0 +1,16 @@
+{
+  "name": "sequlize-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "db-init": "sequelize db:migrate && sequelize db:seed:all",
+    "start": "node index.js",
+    "sequelize": "sequelize"
+  },
+  "dependencies": {
+    "mariadb": "2.1.1",
+    "sequelize": "5.19.0",
+    "sequelize-cli": "5.5.1"
+  }
+}
